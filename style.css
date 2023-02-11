@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+:root {
+    --blue: rgb(0, 38, 255);
+    --gray: rgb(151, 156, 156);
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: var(--gray);
+}
+
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+
+}
+
+header .logo h4 {
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+header .menu {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: var(--blue);
+
+}
+
+header .menu a {
+    color: var(--blue);
+    margin: .1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .menu a:hover {
+    color: #fff;
+    background: var(--blue);
+
+}
+
+header .icons {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+header .icons i,
+header .icons a {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: 50%;
+    background: #eee;
+}
+
+:hover header .icons i:hover,
+header .icons a:hover {
+    color: #fff;
+    background: var(--blue);
+    transform: rotate(360deg);
+}
+
+header .icons .fa-plus {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--gray);
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons .fa-plus:hover {
+    color: #fff;
+    background: var(--blue);
+    transform: rotate(135deg);
+
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+header .menu a .active,
+header .menu a:hover {
+    color: #FFF;
+    background: var(--blue);
+}
+
+
+.swiper .swiper-wrapper .swiper-slide {
+    width: 90%;
+    height: 70%;
+    margin: 1rem 1rem;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+    left: 7rem;
+    right: 0;
+    margin-top: 5%;
+    padding-top: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.swiper .swiper-wrapper .swiper-slide img {
+    width: 50%;
+    height: 30rem;
+
+}
+
+.swiper .swiper-wrapper .swiper-slide h3 {
+    font-size: 2rem;
+    color: rgb(6, 99, 136);
+}
+
+.swiper .swiper-wrapper .swiper-slide .btn a {
+    cursor: pointer;
+    margin: 10%;
+    padding: 5px 20px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(61, 58, 255);
+    border-radius: 30px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .btn a:hover {
+    background: linear-gradient(-45deg, blue, rgb(30, 37, 58), blue);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    margin-left: 10%;
+}
+
+.footer .box-container .box h3 {
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box a {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--gray);
+    text-decoration: underline;
+
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.footer .credit span {
+    color: var(--gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
+
+
+
+@media(max-width:768px){
+    header .icons #menu-bars {
+        display: inline-block;
+    }
+
+    header .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        border-bottom: .1rem solid rgba(0, 0, 0, .2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .menu.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .menu a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide {
+        width: 90%;
+        height: 70%;
+        margin: 1rem 1rem;
+        padding: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        position: relative;
+        margin-top: 5%;
+        margin-left: -5%;
+        padding-top: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .btn a {
+        cursor: pointer;
+        margin: 5%;
+        padding: 5px 10px;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: rgb(61, 58, 255);
+        border-radius: 30px;
+    }
+
+    
+}
+
+@media(max-width:425px)and(min-width:767px){
+    
+    .swiper .swiper-wrapper .swiper-slide {
+        width: 90%;
+        height: 70%;
+        margin: 1rem 1rem;
+        padding: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        position: relative;
+        margin-top: 5%;
+        margin-left: -10%;
+        padding-top: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .btn a {
+        cursor: pointer;
+        margin: 5%;
+        padding: 5px 10px;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(61, 58, 255);
+        border-radius: 30px;
+    }
+
+}
+
+
+@media(max-width:320px) {
+    .swiper .swiper-wrapper .swiper-slide {
+        width: 90%;
+        height: 70%;
+        margin: 1rem 1rem;
+        padding: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        position: relative;
+        margin-top: 10%;
+        margin-left: -15%;
+        padding-top: 1.5rem;
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide h3{
+        font-size: 1.3rem;
+    color: rgb(6, 99, 136);
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .btn a {
+        cursor: pointer;
+        margin: 5%;
+        padding: 2px 2px;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        margin-right: rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: .7rem;
+        color: rgb(61, 58, 255);
+        border-radius: 30px;
+    }
+}
+@media(min-width:321px)and(max-width:424px){
+    .swiper .swiper-wrapper .swiper-slide {
+        width: 90%;
+        height: 70%;
+        margin: 1rem 1rem;
+        padding: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        position: relative;
+        margin-top: 5%;
+        margin-left: -10%;
+        padding-top: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .btn a {
+        cursor: pointer;
+        margin: 5%;
+        padding: 5px 10px;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: rgb(61, 58, 255);
+        border-radius: 30px;
+    }
+}
+
+@media (max-width:250px){
+    .swiper .swiper-wrapper .swiper-slide {
+        width: 90%;
+        height: 70%;
+        margin: 1rem 1rem;
+        padding: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        position: relative;
+        margin-top: 15%;
+        margin-left: -10%;
+        padding-top: 3rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .btn a {
+        cursor: pointer;
+        margin: 5%;
+        padding: 5px 5px;
+        height: 1rem;
+        display: inline-block;
+        text-align: center;
+        line-height: 1rem;
+        font-size: .6rem;
+        color: rgb(61, 58, 255);
+        border-radius: 25px;
+    }
+}
